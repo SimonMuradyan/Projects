@@ -12,18 +12,6 @@ for (i = 0; i < acc.length; i++) {
     }
   });
 }
-
-// var conteiner = document.getElementById("conteiner");
-// var mek = document.getElementById('mek');
-// var erku = document.getElementById('erku');
-// function mf(){
-// 	conteiner.style.padding = mek.value+"px";
-// 	conteiner.style.width = erku.value + "px";
-// }
-
-
-
-
 let main_options = {
 	"con_bg":'#009900',
 	"bor_type":'solid',
