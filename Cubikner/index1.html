@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+	<div id="div">
+		<div id="ba"></div>
+		<div></div>
+		<div></div>
+	</div>
+
+	
+
+
+	<div class="obshi">
+	<button class="accordion">Container</button>
+	<div class="panel">
+		<ul>
+			<li><div class="txt">Background-color</div><input id="con_bg"class="mec"type="color"></li>
+			<li><div class="txt">Border type</div>
+			<select id="bor_type"class="mece">
+				<option>dotted</option>
+				<option>dashed</option>
+				<option>solid</option>
+				<option>double</option>
+				<option>groove</option>
+				<option>ridge</option>
+				<option>inset</option>
+				<option>outset</option>
+				<option>none</option>
+				<option>hidden</option>
+			</select>
+			</li>
+			<li><div class="txt">Border color</div> <input id="bor_col"class="mec"type="color"></li>
+			<li><div class="txt">Border</div> <input id="border" class="mec"type="number"></li>
+			<li><div class="txt">Border-radius</div> <input id="bor_rad"class="mec"type="number"></li>
+			<li><div class="txt">Padding</div> <input id="pad_px"class="mec"type="number"></li>
+			<li><div class="txt">Width</div> <input id="whi_px"class="mec"type="number"></li>
+			<li><div class="txt">Height</div> <input id="hei_px"class="mec"type="number"></li>
+			<li><div class="txt">Has shadow</div> <input id="shadow" onclick="mf9()"class="mec"type="checkbox"></li>
+		</ul>
+	</div>
+	<button class="accordion">Content</button>
+	<div class="panel">
+		<ul>
+			<li><div class="txt">Background-color</div><input id="cont_bg" class="mec"type="color"></li>
+			<li><div class="txt">Border type</div>
+			<select id="bord_type"class="mece">
+				<option>dotted</option>
+				<option>dashed</option>
+				<option selected>solid</option>
+				<option>double</option>
+				<option>groove</option>
+				<option>ridge</option>
+				<option>inset</option>
+				<option>outset</option>
+				<option>none</option>
+				<option>hidden</option>
+			</select>
+			</li>
+			<li><div class="txt">Border color</div><input id="bord_col"class="mec"type="color"></li>
+			<li><div class="txt last">Border</div><input id="bord_px"class="mec"type="number"></li>
+		</ul>	
+	</div>
+	<button class="accordion">Box</button>
+	<div class="panel">
+		<ul>
+			<li><div class="txt">Background-color</div><input id="box_bg"class="mec"type="color"></li>
+			<li><div class="txt">Border type</div>
+				<select id="box_type" class="mece">
+					<option>dotted</option>
+					<option>dashed</option>
+					<option selected>solid</option>
+					<option>double</option>
+					<option>groove</option>
+					<option>ridge</option>
+					<option>inset</option>
+					<option>outset</option>
+					<option>none</option>
+					<option>hidden</option>
+				</select>
+			</li>
+			<li><div class="txt">Border color</div><input id="box_col"class="mec"type="color"></li>
+			<li><div class="txt">Border</div><input id="box_px"class="mec"type="number"></li>
+			<li><div class="txt">Width</div><input id="box_whi"class="mec"type="number" placeholder="min-77px / max-556px"></li>
+			<li><div class="txt last">Height</div><input id="box_hei"class="mec"type="number"></li>
+			<li><div class="txt">margin</div><input id="MovePoint"class="mec"type="number"></li>
+		</ul>
+
+	</div>
+	</div>
+
+
+	<div id="conteiner">
+		<div id="contant">
+			<div id="box"></div>
+		</div>
+	</div>
+
+
+ 	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+body{
+	background-color: gray;
+	background-image: url(sass.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.con{
+	
+	box-shadow: 0px 0px 10px #fff;
+	width: 60%;
+	margin:auto;
+	padding-top: 3%;
+	margin-top: 25%;
+	border-radius: 50px; 
+}
+.con>p{
+	margin:auto;
+	padding: 2%;
+	margin-top: 2%;
+	border: 0.5px solid;
+	text-align: center;
+	width: 80%;
+}
+.con>div{
+	padding: 2%;
+}
+.con>div>button{
+	padding: 1%;
+	background-color: #fff;
+	border:none;
+	text-align: center;
+	width: 48%;
+	cursor: pointer;
+} 
+#qu:hover{
+	color: black;
+}
+#qu{
+	background-color: blue;
+	color: white;
+	border-radius: 50px;
+}
+.ansers{
+	border-radius: 50px;
+	background-color: blue;
+}
+.ansers:hover{
+	color: black
+}
+.ansers{
+	color: white;
+}
+
+
